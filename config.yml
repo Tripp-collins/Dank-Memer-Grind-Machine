@@ -1,0 +1,96 @@
+instances:
+  - token: ""
+    channnel_id: ""
+    is_master: true
+
+shifts:
+  - state: "active"
+    duration: 21600
+  - state: "dormant"
+    duration: 32400
+
+features:
+  commands:
+    beg: true
+    postmeme: true
+    search: true
+    highlow: true
+    fish: true
+    hunt: true
+  custom_commands:
+  auto_buy:
+    fishing_pole: true
+    hunting_rifle: true
+    laptop: true
+  auto_sell:
+    enable: false
+    items:
+      - "boar"
+      - "dragon"
+      - "duck"
+      - "fish"
+      - "deer"
+      - "rabbit"
+      - "skunk"
+  auto_gift:
+    enable: false
+    items:
+      - "bank"
+      - "pizza"
+      - "rarepepe"
+  auto_share:
+    enable: false
+    maximum__balance: 8000000
+    minumum_balance: 5000000
+  auto_bet:
+    enable: false
+    pause_below_balance: 2500000
+  auto_tidepod:
+    enable: false
+    buy_lifesaver_on_death: true
+  balance_check:
+    enable: true
+    interval: 60
+
+compatibility:
+  postmeme:
+    - "f"
+    - "r"
+    - "i"
+    - "c"
+    - "k"
+  allowed_searches:
+    - "bus"
+    - "coat"
+    - "dresser"
+    - "grass"
+    - "laundromat"
+    - "mailbox"
+    - "pantry"
+    - "pocket"
+    - "shoe"
+    - "sink"
+  search_cancel:
+    - "yeah nah"
+    - "i'd rather not die"
+    - "maybe next time"
+    - "hahaha nice try dank"
+  cooldown:
+    beg: 48
+    search: 38
+    highlow: 33
+    postmeme: 63
+    fish: 63
+    hunt: 63
+    bet: 9
+    sell: 6
+    gift: 26
+  await_response_timeout: 4
+
+suspicion_avoidance:
+  typing:
+    variation: 250
+    speed: 450
+  message_delay:
+    base: 100
+    variation: 400
