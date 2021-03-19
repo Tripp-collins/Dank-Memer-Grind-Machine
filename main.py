@@ -51,6 +51,20 @@ def loading_config():
   compatibility_cooldown = compatibility["cooldown"]
   compatibility_cooldown_beg = compatibility_cooldown["beg"]
   compatibility_cooldown_search = compatibility_cooldown["search"]
-
+  compatibility_cooldown_highlow = compatibility_cooldown["highlow"]
+  compatibility_cooldown_postmeme = compatibility_cooldown["postmeme"]
+  compatibility_cooldown_fish = compatibility_cooldown["fish"]
+  compatibility_cooldown_hunt = compatibility_cooldown["hunt"]
+  compatibility_cooldown_beg = compatibility_cooldown["beg"]
+  compatibility_cooldown_sell = compatibility_cooldown["sell"]
+  compatibility_cooldown_gift = compatibility_cooldown["gift"]
+  compatibility_await_response_timeout = compatibility["await_response_timeout"]
+  suspicion_avoidance = features["suspicion_avoidance"]
+  suspicion_avoidance_typing = suspicion_avoidance["typing"]
+  suspicion_avoidance_typing_variation = suspicion_avoidance_typing["variation"]
+  suspicion_avoidance_typing_speed = suspicion_avoidance_typing["speed"]
+  suspicion_avoidance_message_delay = suspicion_avoidance["message_delay"]
+  suspicion_avoidance_message_delay_base = suspicion_avoidance_message_delay["base"]
+  suspicion_avoidance_message_delay_variation = suspicion_avoidance_message_delay["variation"]
 
 loading_config()
